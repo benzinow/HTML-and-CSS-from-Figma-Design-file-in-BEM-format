@@ -9,29 +9,5 @@
 @import url(../blocks/grid/grid.css);
 @import url(../blocks/card/card.css);
 @import url(../blocks/cover/cover.css);
-
-@font-face {
-  font-family: "inter";
-  src: url("../fonts/Inter-Regular-slnt=0.ttf") format("truetype");
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "inter";
-  src: url("../fonts/Inter-Bold-slnt=0.ttf") format("truetype");
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: "inter";
-  src: url("../fonts/Inter-Black-slnt=0.ttf") format("truetype");
-  font-weight: 800;
-}
-
-.page {
-  background-color: #2a2c2f;
-  color: #ffffff;
-  font-family: inter;
-  width: 100%;
-  font-size: 12px;
-}
+@import url(../fonts/fonts.css);
+@import url(../blocks/page/page.css);
