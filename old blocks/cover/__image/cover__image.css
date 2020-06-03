@@ -1,0 +1,30 @@
+.cover__image {
+  width: 320px;
+  height: 216px;
+  margin: 70px auto 0 auto;
+  opacity: 70%;
+  object-fit: cover;
+  overflow: hidden;
+  transition: opacity 0.5s;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .cover__image {
+    width: 768px;
+    height: 480px;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__image {
+    width: 1024px;
+    height: 640px;
+    display: block;
+  }
+}
+
+.cover__image:hover {
+  opacity: 20%;
+}

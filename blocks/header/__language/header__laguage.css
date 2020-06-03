@@ -1,17 +1,17 @@
-.list__title {
+.header__language {
 }
 
 @media screen and (min-width: 768px) {
-  .list__title {
+  .header__language {
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .list__title {
+  .header__language {
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .list__title {
+  .header__language {
   }
 }

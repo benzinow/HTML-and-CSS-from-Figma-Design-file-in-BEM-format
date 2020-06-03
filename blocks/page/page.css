@@ -1,7 +1,17 @@
 .page {
-  background-color: #2a2c2f;
-  color: #ffffff;
-  font-family: inter;
-  width: 100%;
-  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .page {
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .page {
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .page {
+  }
 }

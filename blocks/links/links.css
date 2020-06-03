@@ -1,11 +1,17 @@
-@import url(./__language/links__language.css);
-@import url(./__menu/links__menu.css);
-
 .links {
-  color: #fff;
-  transition: opacity 0.5s;
 }
 
-.links:hover {
-  opacity: 70%;
+@media screen and (min-width: 768px) {
+  .links {
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .links {
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .links {
+  }
 }

@@ -1,11 +1,20 @@
-@import url(./__title/header__title.css);
-@import url(./__subtitle/header__subtitle.css);
-@import url(./__image/header__image.css);
+@import url(./__language/header__laguage.css);
+@import url(./__logo/header__logo.css);
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin: 21px auto 0 auto;
-    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+  }
 }

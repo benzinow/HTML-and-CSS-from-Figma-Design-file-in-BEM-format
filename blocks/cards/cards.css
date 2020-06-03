@@ -1,0 +1,24 @@
+@import url(./__card/cards__card.css);
+@import url(./__image/cards__image.css);
+@import url(./__link/cards__link.css);
+@import url(./__text/cards__text.css);
+@import url(./__title/cards__title.css);
+@import url(./__url/cards__url.css);
+
+.cards {
+}
+
+@media screen and (min-width: 768px) {
+  .cards {
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cards {
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cards {
+  }
+}
