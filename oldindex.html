@@ -8,68 +8,68 @@
   </head>
   <body class="page">
     <header class="header">
-      <div class="header__logo"></div>
+      <div class="logo"></div>
       <div>
-        <a class="links header__language" href="#">EN</a>
-        <a class="links header__language header__language_es" href="#">ES</a>
+        <a class="links links__language" href="#">EN</a>
+        <a class="links links__language links__language_es" href="#">ES</a>
       </div>
     </header>
 
-    <main>
-      <section class="portland">
-        <h1 class="portland__title">
+    <main class="content">
+      <section>
+        <h1 class="header__title">
           From Portland to Portland
         </h1>
-        <p class="portland__subtitle">
+        <p class="header__subtitle">
           An epic bicycle journey from Portland, ME. to Portland, OR.
         </p>
 
         <img
-          class="portland__image"
+          class="header__image"
           src="./images/hatham.png"
           alt="black and white landscape mountain the background trees in the foreground"
         />
 
-        <p class="portland__caption">
+        <p class="image__caption-outside">
           Your journey starts here
         </p>
       </section>
-      <section class="stats">
-        <h2 class="stats__title">
-          Know the country you live in a little better
-        </h2>
-        <p class="stats__subtitle">
-          That's exactly what we have arranged for you via this travel story
-        </p>
-        <p class="stats__text">
-          Need more action and adventure in your life instead of the same old
-          routine? From Portland, Maine to Portland, Oregon we're going to take
-          you on an exciting journey through some unknown regions of your
-          country. Leave the car at home and travel by bike starting in New
-          England where it all began. You will pass through 12 beautiful states,
-          covering a total of 3,600 miles, and accomplish 3 monumental missions.
-          Partying and taking a selfie with a famous rock star, donating $1 to a
-          billionaire to help eradicate polio in Africa, and even stopping by
-          famous author Stephen King's house to say hi and asking him to sign
-          your favorite book.
-        </p>
-        <ul class="list">
-          <li class="list__text">
-            <span class="list__title">Distance (miles)</span> 3,644
-          </li>
-          <li class="list__text">
-            <span class="list__title">Travel time (days)</span> 22
-          </li>
-          <li class="list__text">
-            <span class="list__title">Highest point (feet)</span>
-            9,613
-          </li>
-          <li class="list__text">
-            <span class="list__title">Lowest point (feet)</span> -3
-          </li>
-        </ul>
-      </section>
       <section class="grid">
+        <div class="grid__text">
+          <h2 class="content__title">
+            Know the country you live in a little better
+          </h2>
+          <p class="content__subtitle">
+            That's exactly what we have arranged for you via this travel story
+          </p>
+          <p class="content__text">
+            Need more action and adventure in your life instead of the same old
+            routine? From Portland, Maine to Portland, Oregon we're going to
+            take you on an exciting journey through some unknown regions of your
+            country. Leave the car at home and travel by bike starting in New
+            England where it all began. You will pass through 12 beautiful
+            states, covering a total of 3,600 miles, and accomplish 3 monumental
+            missions. Partying and taking a selfie with a famous rock star,
+            donating $1 to a billionaire to help eradicate polio in Africa, and
+            even stopping by famous author Stephen King's house to say hi and
+            asking him to sign your favorite book.
+          </p>
+          <ul class="list">
+            <li class="list__text">
+              <span class="list__title">Distance (miles)</span> 3,644
+            </li>
+            <li class="list__text">
+              <span class="list__title">Travel time (days)</span> 22
+            </li>
+            <li class="list__text">
+              <span class="list__title">Highest point (feet)</span>
+              9,613
+            </li>
+            <li class="list__text">
+              <span class="list__title">Lowest point (feet)</span> -3
+            </li>
+          </ul>
+        </div>
         <div>
           <img
             class="grid__image"
@@ -133,16 +133,17 @@
           />
         </div>
       </section>
-      <section class="cards">
+      <section>
         <div class="card">
-       
+          <div class="card__half">
             <h2 class="card__title">Maine</h2>
             <img
               class="card__image"
               alt="lighthouse off the side of a cliff"
               src="./images/maine.png"
             />
-
+          </div>
+          <div class="card__half">
             <p class="card__url">URL</p>
             <a class="card__link links" href="global.llbean.com"
               >global.llbean.com</a
@@ -163,17 +164,18 @@
             <p class="card__text">
               Average cost: $80-100.
             </p>
-          
+          </div>
         </div>
         <div class="card">
-          
+          <div class="card__half">
             <h2 class="card__title">New Hampshire</h2>
             <img
               class="card__image"
               alt="stream in a valley surrounded by yellowing trees"
               src="./images/newhampshire.png"
             />
-        
+          </div>
+          <div class="card__half">
             <p class="card__url">URL</p>
             <a class="card__link links" href="timberland.com">timberland.com</a>
             <p class="card__text">
@@ -195,17 +197,18 @@
             <p class="card__text">
               Average cost: $100-150.
             </p>
-          
+          </div>
         </div>
         <div class="card">
-         
+          <div class="card__half">
             <h2 class="card__title">New York</h2>
             <img
               class="card__image"
               alt="view down a street full of cars tall buildings on either side"
               src="./images/newyork.png"
             />
-        
+          </div>
+          <div class="card__half">
             <p class="card__url">URL</p>
             <a class="card__link links" href="ge.com">ge.com</a>
             <p class="card__text">
@@ -225,14 +228,15 @@
           </div>
         </div>
         <div class="card">
-        
+          <div class="card__half">
             <h2 class="card__title">Erie, PA</h2>
             <img
               class="card__image"
               alt="house on a river in a forest with a waterfall coming out the bottom"
               src="./images/erie.png"
             />
-        
+          </div>
+          <div class="card__half">
             <p class="card__url">URL</p>
             <a class="card__link links" href="www.fws.gov">www.fws.gov</a>
             <p class="card__text">
@@ -255,17 +259,18 @@
             <p class="card__text">
               The current cost of a Hershey's Chocolate bar: about 60¢.
             </p>
-          
+          </div>
         </div>
         <div class="card">
-        
+          <div class="card__half">
             <h2 class="card__title">Ohio</h2>
             <img
               class="card__image"
               alt="house on a river in a forest with a waterfall coming out the bottom"
               src="./images/ohio.png"
             />
-      
+          </div>
+          <div class="card__half">
             <p class="card__url">URL</p>
             <a class="card__link links" href="cedarpoint.com">cedarpoint.com</a>
             <p class="card__text">
@@ -314,7 +319,7 @@
     <footer class="footer">
       <ul class="footer__menu">
         <li>
-          <a class="links menu_item" href="Https://yandex.com/maps">Maps</a>
+          <a class="links links__menu" href="Https://yandex.com/maps">Maps</a>
         </li>
         <li>
           <a class="links links__menu" href="Https://yandex.com/weather/moscow"

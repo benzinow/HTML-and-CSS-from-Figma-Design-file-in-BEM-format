@@ -1,6 +1,7 @@
 @import url(./__text/footer__text.css);
 @import url(./__menu/footer__menu.css);
 @import url(./__author/footer__author.css);
+@import url(./__nav/footer__nav.css);
 
 .footer {
 }
