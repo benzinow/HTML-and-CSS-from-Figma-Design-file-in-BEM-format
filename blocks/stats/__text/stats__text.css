@@ -1,17 +1,25 @@
 .stats__text {
+  font-size: 16px;
+  line-height: 163%;
+  font-weight: normal;
+
+  margin: 32px 0 0 0;
 }
 
 @media screen and (min-width: 768px) {
   .stats__text {
+    width: 720px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .stats__text {
+    width: 690px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .stats__text {
+    width: 690px;
   }
 }

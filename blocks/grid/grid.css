@@ -1,19 +1,33 @@
 @import url(./__image/grid__image.css);
 
 .grid {
+  max-width: 288px;
+  grid-template-columns: 12;
+  gap: 16px;
+  margin: 0 auto 0 auto;
+  display: grid;
+  justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
   .grid {
+    max-width: 720px;
+    grid-template-columns: 50% 50%;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .grid {
+    max-width: 922px;
+    grid-template-columns: 33% 33% 33%;
+    gap: 14px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .grid {
+    max-width: 1184px;
+    gap: 16px;
+    grid-template-columns: 25% 25% 25% 25%;
   }
 }

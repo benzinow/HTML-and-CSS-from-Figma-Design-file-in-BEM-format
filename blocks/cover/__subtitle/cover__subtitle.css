@@ -1,4 +1,9 @@
 .cover__subtitle {
+  width: 288px;
+  text-align: center;
+  font-size: 1.25em;
+  margin: 20px auto 0 auto;
+  font-size: 14px;
 }
 
 @media screen and (min-width: 768px) {

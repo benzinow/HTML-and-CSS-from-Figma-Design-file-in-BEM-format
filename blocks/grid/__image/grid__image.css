@@ -1,6 +1,7 @@
 .grid__image {
+  width: 100%;
 }
-
+/*
 @media screen and (min-width: 768px) {
   .grid__image {
   }
@@ -8,10 +9,13 @@
 
 @media screen and (min-width: 1024px) {
   .grid__image {
+    width: 32%;
+    margin: 14px 14px 0 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .grid__image {
+    width: 24%s;
   }
 }

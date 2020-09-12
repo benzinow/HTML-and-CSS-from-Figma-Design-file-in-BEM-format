@@ -1,4 +1,12 @@
 .cover__image {
+  width: 320px;
+  height: 200px;
+  margin: 70px auto 0 auto;
+  opacity: 70%;
+  object-fit: cover;
+  overflow: hidden;
+  transition: opacity 0.5s;
+  display: block;
 }
 
 @media screen and (min-width: 768px) {

@@ -1,17 +1,27 @@
 .portland__caption {
+  font-size: 10px;
+  line-height: 14px;
+  text-align: start;
+  font-weight: normal;
+  text-transform: uppercase;
+  width: 288px;
+  margin: 8px auto 0 auto;
 }
 
 @media screen and (min-width: 768px) {
   .portland__caption {
+    width: 720px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .portland__caption {
+    width: 920px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .portland__caption {
+    width: 984px;
   }
 }

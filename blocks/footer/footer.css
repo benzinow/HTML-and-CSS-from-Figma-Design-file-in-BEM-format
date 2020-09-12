@@ -1,9 +1,11 @@
 @import url(./__text/footer__text.css);
-@import url(./__menu/footer__menu.css);
+@import url(./__menu/footer__menu-item.css);
 @import url(./__author/footer__author.css);
 @import url(./__nav/footer__nav.css);
 
 .footer {
+  width: 288px;
+  margin: 0 auto 0 auto;
 }
 
 @media screen and (min-width: 768px) {

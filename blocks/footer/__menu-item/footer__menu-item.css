@@ -1,6 +1,7 @@
 @import url(./_item/footer__menu_item.css);
 
 .footer__menu-item {
+  text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {

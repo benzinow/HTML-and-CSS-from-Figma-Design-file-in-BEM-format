@@ -4,6 +4,8 @@
 @import url(./__text-area/cover__text-area.css);
 
 .cover {
+  width: 320px;
+  position: relative;
 }
 
 @media screen and (min-width: 768px) {

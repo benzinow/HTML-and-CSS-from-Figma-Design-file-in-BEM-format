@@ -1,4 +1,9 @@
 .cards__title {
+  font-size: 32px;
+  line-height: 1.1;
+  font-weight: 900;
+  width: 288px;
+  margin: 70px auto 0 auto;
 }
 
 @media screen and (min-width: 768px) {

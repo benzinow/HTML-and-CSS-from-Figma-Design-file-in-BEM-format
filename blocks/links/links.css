@@ -1,17 +1,8 @@
 .links {
+  color: #fff;
+  transition: opacity 0.5s;
 }
 
-@media screen and (min-width: 768px) {
-  .links {
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .links {
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .links {
-  }
+.links:hover {
+  opacity: 70%;
 }

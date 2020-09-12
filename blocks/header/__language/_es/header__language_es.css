@@ -1,4 +1,6 @@
 .header__language_es {
+  text-decoration: none;
+  margin: 0 0 0 18px;
 }
 
 @media screen and (min-width: 768px) {
