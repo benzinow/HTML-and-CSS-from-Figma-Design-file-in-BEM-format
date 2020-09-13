@@ -1,11 +1,14 @@
-@import url(./_item/footer__menu_item.css);
-
 .footer__menu-item {
   text-decoration: none;
+  font-size: 24px;
+  margin: 0 0 32px 0;
 }
 
 @media screen and (min-width: 768px) {
   .footer__menu-item {
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0 18px 0 0;
   }
 }
 
