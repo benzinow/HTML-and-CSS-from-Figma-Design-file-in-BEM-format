@@ -5,15 +5,23 @@
 
 @media screen and (min-width: 768px) {
   .cards__url {
+    display: block;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 0 0 12px 0;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cards__url {
+    font-size: 12px;
+    line-height: 170%;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cards__url {
+    font-size: 12px;
+    line-height: 170%;
   }
 }

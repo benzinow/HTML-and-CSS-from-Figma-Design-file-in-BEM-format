@@ -1,19 +1,25 @@
 .cards__image {
   width: 320px;
-  margin: 40px auto 30px auto;
+  margin: 32px auto 32px auto;
 }
 
 @media screen and (min-width: 768px) {
   .cards__image {
+    width: 340px;
+    margin: 48px 0 48px 0;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cards__image {
+    width: 440px;
+    margin: 48px 0 48px 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cards__image {
+    width: 460px;
+    margin: 48px 0 48px auto;
   }
 }

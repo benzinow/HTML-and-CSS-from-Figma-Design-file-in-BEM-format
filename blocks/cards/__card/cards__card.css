@@ -1,17 +1,24 @@
 .cards__card {
+  margin: 64px 0 0 0;
 }
 
 @media screen and (min-width: 768px) {
   .cards__card {
+    margin: 72px 0 0 0;
+    width: 340px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cards__card {
+    margin: 110px 0 0 0;
+    width: 440px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cards__card {
+    margin: 110px 0 0 0;
+    width: 460px;
   }
 }

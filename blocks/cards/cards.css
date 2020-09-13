@@ -6,19 +6,27 @@
 @import url(./__url/cards__url.css);
 
 .cards {
+  margin: 0 auto 0 auto;
 }
 
 @media screen and (min-width: 768px) {
   .cards {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    gap: 28px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cards {
+    gap: 32px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cards {
+    gap: 40px;
   }
 }
