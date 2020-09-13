@@ -1,7 +1,0 @@
-@import url(./__image/grid__image.css);
-@import url(./__text/grid__text.css);
-
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-}
