@@ -15,15 +15,8 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .header {
-    margin: 34px auto 0 auto;
-  }
-}
-
 @media screen and (min-width: 1280px) {
   .header {
-    margin: 34px auto 0 auto;
     width: 984px;
   }
 }

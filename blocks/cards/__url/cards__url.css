@@ -14,14 +14,6 @@
 
 @media screen and (min-width: 1024px) {
   .cards__url {
-    font-size: 12px;
-    line-height: 170%;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .cards__url {
-    font-size: 12px;
     line-height: 170%;
   }
 }

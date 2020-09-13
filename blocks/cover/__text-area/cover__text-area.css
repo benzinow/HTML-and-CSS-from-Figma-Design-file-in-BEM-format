@@ -6,15 +6,18 @@
 
 @media screen and (min-width: 768px) {
   .cover__text-area {
+    margin: 153px auto 0 auto;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cover__text-area {
+    margin: 233px auto 0 auto;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cover__text-area {
+    margin: 283px auto 0 auto;
   }
 }

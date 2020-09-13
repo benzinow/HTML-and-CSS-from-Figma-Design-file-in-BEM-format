@@ -18,18 +18,12 @@
 
 @media screen and (min-width: 1024px) {
   .portland__subtitle {
-    width: 620px;
-    font-size: 30px;
-    line-height: 36px;
     margin: 32px auto 56px auto;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .portland__subtitle {
-    width: 620px;
-    font-size: 30px;
-    line-height: 36px;
     margin: 32px auto 64px auto;
   }
 }

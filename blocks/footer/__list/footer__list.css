@@ -7,13 +7,3 @@
     display: inline;
   }
 }
-
-@media screen and (min-width: 1024px) {
-  .footer__list {
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .footer__list {
-  }
-}

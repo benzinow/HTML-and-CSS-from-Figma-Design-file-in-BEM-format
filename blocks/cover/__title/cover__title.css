@@ -12,24 +12,5 @@
     font-size: 72px;
     line-height: 76px;
     width: 656px;
-    margin: 153px auto 0 auto;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .cover__title {
-    font-size: 72px;
-    line-height: 76px;
-    width: 656px;
-    margin: 233px auto 0 auto;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .cover__title {
-    font-size: 72px;
-    line-height: 76px;
-    width: 656px;
-    margin: 283px auto 0 auto;
   }
 }

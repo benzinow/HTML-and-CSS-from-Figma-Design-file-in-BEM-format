@@ -10,17 +10,3 @@
     margin: 0 0 48px 0;
   }
 }
-
-@media screen and (min-width: 1024px) {
-  .cards__link {
-    font-size: 18px;
-    line-height: 22px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .cards__link {
-    font-size: 18px;
-    line-height: 22px;
-  }
-}

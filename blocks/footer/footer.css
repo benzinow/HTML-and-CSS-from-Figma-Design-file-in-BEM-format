@@ -1,4 +1,3 @@
-@import url(./__text/footer__text.css);
 @import url(./__menu-item/footer__menu-item.css);
 @import url(./__author/footer__author.css);
 @import url(./__nav/footer__nav.css);
@@ -14,15 +13,5 @@
     width: 90%;
     display: flex;
     justify-content: space-between;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .footer {
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .footer {
   }
 }

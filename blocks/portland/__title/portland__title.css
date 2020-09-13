@@ -15,15 +15,8 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .portland__title {
-    width: 720px;
-  }
-}
-
 @media screen and (min-width: 1280px) {
   .portland__title {
     margin: 58px auto 0 auto;
-    width: 720px;
   }
 }
