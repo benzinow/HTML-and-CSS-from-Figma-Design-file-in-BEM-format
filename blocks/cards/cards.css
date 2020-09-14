@@ -13,7 +13,7 @@
 
 @media screen and (min-width: 768px) {
   .cards {
-    width: 90%;
+    width: 720px;
     display: grid;
     grid-template-columns: 50% 50%;
 
@@ -30,5 +30,6 @@
 @media screen and (min-width: 1280px) {
   .cards {
     gap: 40px;
+    max-width: 984px;
   }
 }

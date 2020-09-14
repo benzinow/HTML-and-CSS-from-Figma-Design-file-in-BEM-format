@@ -1,5 +1,5 @@
 .portland__image {
-  width: 320px;
+  max-width: 320px;
   height: 200px;
   margin: 0 auto 0 auto;
   display: block;
@@ -7,21 +7,21 @@
 
 @media screen and (min-width: 768px) {
   .portland__image {
-    width: 768px;
+    max-width: 768px;
     height: 480px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .portland__image {
-    width: 920px;
+    max-width: 920px;
     height: 580px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .portland__image {
-    width: 984px;
+    max-width: 984px;
     height: 615px;
   }
 }

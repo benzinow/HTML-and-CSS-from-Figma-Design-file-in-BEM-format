@@ -5,24 +5,24 @@
 @import url(./metric/stats__metric.css);
 
 .stats {
-  width: 90%;
+  max-width: 90%;
   margin: 0 auto 0 auto;
 }
 
 @media screen and (min-width: 768px) {
   .stats {
-    width: 820px;
+    max-width: 720px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .stats {
-    width: 928px;
+    max-width: 928px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .stats {
-    width: 984px;
+    max-width: 984px;
   }
 }

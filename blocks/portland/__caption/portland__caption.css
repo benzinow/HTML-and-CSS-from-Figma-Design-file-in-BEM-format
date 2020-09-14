@@ -4,25 +4,25 @@
   text-align: start;
   font-weight: normal;
   text-transform: uppercase;
-  width: 288px;
+  max-width: 288px;
   margin: 8px auto 0 auto;
   letter-spacing: 0.15em;
 }
 
 @media screen and (min-width: 768px) {
   .portland__caption {
-    width: 720px;
+    max-width: 720px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .portland__caption {
-    width: 920px;
+    max-width: 920px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .portland__caption {
-    width: 984px;
+    max-width: 984px;
   }
 }

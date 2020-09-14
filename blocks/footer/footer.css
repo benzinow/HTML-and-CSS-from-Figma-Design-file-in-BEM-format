@@ -4,14 +4,20 @@
 @import url(./__list/footer__list.css);
 
 .footer {
-  width: 288px;
+  max-width: 288px;
   margin: 0 auto 0 auto;
 }
 
 @media screen and (min-width: 768px) {
   .footer {
-    width: 90%;
+    max-width: 90%;
     display: flex;
     justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    max-width: 1184px;
   }
 }

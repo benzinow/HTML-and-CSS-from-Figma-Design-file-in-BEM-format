@@ -9,12 +9,12 @@
   .stats__title {
     font-size: 54px;
     line-height: 58px;
-    width: 720px;
+    max-width: 720px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .stats__title {
-    width: 690px;
+    max-width: 690px;
   }
 }

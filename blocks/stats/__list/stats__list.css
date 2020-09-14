@@ -2,27 +2,27 @@
   list-style-type: none;
   margin: 32px auto 52px auto;
   padding: 0;
-  width: 288px;
+  max-width: 288px;
   line-height: 1.5;
 }
 
 @media screen and (min-width: 768px) {
   .stats__list {
     margin: 32px auto 72px auto;
-    width: 768px;
+    max-width: 768px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .stats__list {
     margin: 32px auto 78px auto;
-    width: 928px;
+    max-width: 928px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .stats__list {
     margin: 32px auto 76px auto;
-    width: 984px;
+    max-width: 984px;
   }
 }
