@@ -1,20 +1,18 @@
 @font-face {
-  font-family: "inter";
-  font-family: Arial, sans-serif;
+  font-family: "inter", Arial, sans-serif;
   src: url("../fonts/Inter-Regular-slnt=0.ttf") format("truetype");
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "inter";
-  font-family: Arial, sans-serif;
+  font-family: "inter", Arial, sans-serif;
   src: url("../fonts/Inter-Bold-slnt=0.ttf") format("truetype");
   font-weight: bold;
 }
+/*from my review- "It's better to link woff2 and woff formats of fonts" the font provided for me were .ttf, how would I link woff2 files? */
 
 @font-face {
-  font-family: "inter";
-  font-family: Arial, sans-serif;
+  font-family: "inter", Arial, sans-serif;
   src: url("../fonts/Inter-Black-slnt=0.ttf") format("truetype");
   font-weight: 900;
 }

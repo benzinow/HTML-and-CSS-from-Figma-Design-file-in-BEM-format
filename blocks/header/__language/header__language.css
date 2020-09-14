@@ -1,8 +1,14 @@
-@import url(./_es/header__language_es.css);
+@import url(./_selected/header__language_selected.css);
 
 .header__language {
   font-size: 18px;
   line-height: 20px;
+  text-decoration: none;
+  margin: 0 18px 0 0;
+}
+
+.header__language:last-of-type {
+  margin: 0;
 }
 
 @media screen and (min-width: 768px) {

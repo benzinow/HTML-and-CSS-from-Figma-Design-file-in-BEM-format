@@ -1,6 +1,4 @@
-@import url(./__title/list__title.css);
-
-.list {
+.stats__list {
   list-style-type: none;
   margin: 32px auto 52px auto;
   padding: 0;
@@ -9,21 +7,21 @@
 }
 
 @media screen and (min-width: 768px) {
-  .list {
+  .stats__list {
     margin: 32px auto 72px auto;
     width: 768px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .list {
+  .stats__list {
     margin: 32px auto 78px auto;
     width: 928px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .list {
+  .stats__list {
     margin: 32px auto 76px auto;
     width: 984px;
   }

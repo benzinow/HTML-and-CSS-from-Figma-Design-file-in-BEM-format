@@ -1,6 +1,7 @@
 .cards__url {
   display: none;
   color: #aaaaaa;
+  letter-spacing: 0.2em;
 }
 
 @media screen and (min-width: 768px) {

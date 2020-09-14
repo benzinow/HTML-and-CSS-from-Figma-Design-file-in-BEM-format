@@ -4,6 +4,8 @@
 @import url(./__text/cards__text.css);
 @import url(./__title/cards__title.css);
 @import url(./__url/cards__url.css);
+@import url(./__information-card/cards__information-card.css);
+@import url(./__visual-card/cards__visual-card.css);
 
 .cards {
   margin: 0 auto 0 auto;
