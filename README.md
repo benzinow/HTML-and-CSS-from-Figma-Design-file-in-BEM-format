@@ -16,4 +16,4 @@ Benzi Holler
 
 ## link
 
-https://github.com/benzinow/web_project_3
+https://benzinow.github.io/web_project_3/
