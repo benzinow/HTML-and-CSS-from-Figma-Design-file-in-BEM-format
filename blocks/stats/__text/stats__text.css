@@ -17,9 +17,3 @@
     max-width: 690px;
   }
 }
-
-@media screen and (min-width: 1280px) {
-  .stats__text {
-    max-width: 690px;
-  }
-}

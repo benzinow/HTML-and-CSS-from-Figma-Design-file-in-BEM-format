@@ -1,8 +1,8 @@
 @import url(./__text/stats__text.css);
 @import url(./__title/stats__title.css);
-@import url(./subtitle/stats__subtitle.css);
+@import url(./__subtitle/stats__subtitle.css);
 @import url(./__list/stats__list.css);
-@import url(./metric/stats__metric.css);
+@import url(./__metric/stats__metric.css);
 
 .stats {
   max-width: 90%;
