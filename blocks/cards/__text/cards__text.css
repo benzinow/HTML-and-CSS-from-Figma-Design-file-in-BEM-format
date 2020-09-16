@@ -10,7 +10,6 @@
 
 @media screen and (min-width: 768px) {
   .cards__text {
-    line-height: 163%;
     max-width: 352px;
   }
 }
@@ -18,7 +17,7 @@
 @media screen and (min-width: 1024px) {
   .cards__text {
     font-size: 18px;
-    line-height: 163%;
+
     max-width: 456px;
   }
 }

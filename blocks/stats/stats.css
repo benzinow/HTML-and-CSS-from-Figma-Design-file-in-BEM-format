@@ -5,7 +5,7 @@
 @import url(./__metric/stats__metric.css);
 
 .stats {
-  max-width: 90%;
+  max-width: 288px;
   margin: 0 auto 0 auto;
 }
 

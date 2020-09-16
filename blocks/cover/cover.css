@@ -7,7 +7,7 @@
   max-width: 320px;
   height: 200px;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,5 +39,6 @@
   .cover {
     max-width: 1184px;
     height: 740px;
+    margin: 116px auto 0 auto;
   }
 }
