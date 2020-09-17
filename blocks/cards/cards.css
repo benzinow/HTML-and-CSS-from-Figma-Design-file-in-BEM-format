@@ -4,4 +4,5 @@
 @import url(./__title/cards__title.css);
 @import url(./__url/cards__url.css);
 @import url(./__article/cards__article.css);
-@import url(./__link_wrapper/cards__link_wrapper.css);
+@import url(./__link_wrapper/cards__link-wrapper.css);
+@import url(./__text-wrapper/cards__text-wrapper.css);

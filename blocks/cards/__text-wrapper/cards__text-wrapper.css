@@ -1,0 +1,23 @@
+.cards__text-wrapper {
+  margin: 0 auto 0 auto;
+  max-width: 288px;
+}
+
+@media screen and (min-width: 768px) {
+  .cards__text-wrapper {
+    max-width: 352px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cards__text-wrapper {
+    max-width: 456px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cards__text-wrapper {
+    max-width: 484px;
+  }
+}
