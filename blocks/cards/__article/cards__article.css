@@ -9,6 +9,8 @@
     grid-template-columns: repeat(2, 1fr);
     max-width: 720px;
     margin: 72px auto 0 auto;
+    row-gap: 48px;
+    column-gap: 28px;
   }
 }
 
