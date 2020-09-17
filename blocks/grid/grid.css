@@ -4,8 +4,10 @@
   max-width: 288px;
   gap: 16px;
   margin: 0 auto 0 auto;
+  padding: 0 0 16px 0;
   display: grid;
   justify-content: center;
+  grid-column: end;
 }
 
 @media screen and (min-width: 768px) {

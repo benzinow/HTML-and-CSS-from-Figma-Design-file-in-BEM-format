@@ -3,8 +3,12 @@
   line-height: 163%;
   font-weight: normal;
   max-width: 288px;
-  margin: 0 0 35px 0;
+  margin: 0;
   line-height: 1.5;
+  margin: 0 auto 24px auto;
+}
+
+.cards__text:last-of-type {
   margin: 0 auto 0 auto;
 }
 

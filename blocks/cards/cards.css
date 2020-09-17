@@ -3,6 +3,5 @@
 @import url(./__text/cards__text.css);
 @import url(./__title/cards__title.css);
 @import url(./__url/cards__url.css);
-@import url(./__information-card/cards__information-card.css);
-@import url(./__visual-card/cards__visual-card.css);
 @import url(./__article/cards__article.css);
+@import url(./__link_wrapper/cards__link_wrapper.css);
